@@ -1,0 +1,3 @@
+usr/lib/*/libKF5MailTransport.so.5
+usr/lib/*/libKF5MailTransport.so.5.*
+usr/lib/*/qt5/plugins/mailtransport/mailtransport_smtpplugin.so

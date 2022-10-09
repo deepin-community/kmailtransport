@@ -1,0 +1,2 @@
+rm_conffile /etc/xdg/kmailtransport.categories 20.04.1-2~
+rm_conffile /etc/xdg/kmailtransport.renamecategories 20.04.1-2~

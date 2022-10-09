@@ -1,0 +1,846 @@
+# translation of libmailtransport.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libmailtransport\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-25 00:17+0000\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team: <en@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. i18n: ectx: label, entry (id), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:12
+#, fuzzy, kde-format
+msgid "Unique identifier"
+msgstr "وحيدفريد معرَف"
+
+#. i18n: ectx: label, entry (name), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:16
+#, fuzzy, kde-format
+msgid "User-visible transport name"
+msgstr "المستخدم مرئي نقل الاسم"
+
+#. i18n: ectx: whatsthis, entry (name), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:17
+#, fuzzy, kde-format
+msgid "The name that will be used when referring to this server."
+msgstr "الـ الاسم مُستخدَم إلى خادم."
+
+#: kmailtransport/mailtransport.kcfg:18
+#, fuzzy, kde-format
+msgid "Unnamed"
+msgstr "الإ&سم:"
+
+#. i18n: ectx: label, entry (host), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:24
+#, fuzzy, kde-format
+msgid "Host name of the server"
+msgstr "مضيف الاسم من خادم"
+
+#. i18n: ectx: whatsthis, entry (host), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:25
+#, fuzzy, kde-format
+msgid "The domain name or numerical address of the SMTP server."
+msgstr "اسم المجال أو العنوان الرقمي للخادم SMTP."
+
+#. i18n: ectx: label, entry (port), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:28
+#, fuzzy, kde-format
+msgid "Port number of the server"
+msgstr "منفذ رقم من خادم"
+
+#. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:29
+#, fuzzy, kde-format
+msgid ""
+"The port number that the SMTP server is listening on. The default port is 25."
+msgstr "رقم المنفذ اللذي يستمع عليه الخادم SMTP. المنفذ الإفتراضي رقمه 25."
+
+#. i18n: ectx: label, entry (userName), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:33
+#, fuzzy, kde-format
+msgid "User name needed for login"
+msgstr "المستخدم الاسم لـ دخول ، تسجيل"
+
+#. i18n: ectx: whatsthis, entry (userName), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:34
+#, fuzzy, kde-format
+msgid "The user name to send to the server for authorization."
+msgstr ""
+"الـ مستخدم الاسم إلى إرسال إلى خادم لـ تخويل\n"
+"ترخيص."
+
+#. i18n: ectx: label, entry (precommand), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:37
+#, fuzzy, kde-format
+msgid "Command to execute before sending a mail"
+msgstr "الأمر إلى نفِّذ قبل a بريد"
+
+#. i18n: ectx: whatsthis, entry (precommand), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:38
+#, fuzzy, kde-format
+msgid ""
+"A command to run locally, prior to sending email. This can be used to set up "
+"SSH tunnels, for example. Leave it empty if no command should be run."
+msgstr ""
+"\n"
+" A أمر إلى تنفيذ إلى بريد إلكتروني\n"
+" هذا مُستخدَم إلى set أعلى SSH لـ\n"
+" غادِر الإيطالية فارغ IF لا أمر تنفيذ n "
+
+#. i18n: ectx: label, entry (options), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:41
+#, kde-format
+msgid "Options added to mailtransport method"
+msgstr ""
+
+#. i18n: ectx: label, entry (requiresAuthentication), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:44
+#, fuzzy, kde-format
+msgid "Server requires authentication"
+msgstr "الخادم توثق"
+
+#. i18n: ectx: whatsthis, entry (requiresAuthentication), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:45
+#, fuzzy, kde-format
+msgid ""
+"Check this option if your SMTP server requires authentication before "
+"accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
+msgstr ""
+"\n"
+" كِش خيار IF SMTP خادم توثق قبل بريد\n"
+" هذا هو صدّق SMTP أو n "
+
+#. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:49
+#, fuzzy, kde-format
+msgid "Store password"
+msgstr "تخزين كلمة مرور"
+
+#. i18n: ectx: whatsthis, entry (storePassword), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:52
+#, fuzzy, kde-format
+msgid ""
+"Check this option to have your password stored.\n"
+"If KWallet is available the password will be stored there, which is "
+"considered safe.\n"
+"However, if KWallet is not available, the password will be stored in the "
+"configuration file. The password is stored in an obfuscated format, but "
+"should not be considered secure from decryption efforts if access to the "
+"configuration file is obtained."
+msgstr ""
+"\n"
+" كِش خيار إلى كلمة مرور\n"
+" المحفظة KWallet هو متوفّر كلمة مرور هو آمن n\n"
+" على أية حال IF المحفظة KWallet هو ليس متوفّر كلمة مرور بوصة تشكيل ملفّ\n"
+" الـ كلمة مرور هو بوصة تنسيق ليس آمن من فك تشفير IF وصول إلى تشكيل ملفّ هو n "
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:56
+#, fuzzy, kde-format
+msgid "Encryption method used for communication"
+msgstr "التشفير طريقة مُستخدَم لـ تواصل"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:59
+#, fuzzy, kde-format
+msgid "No encryption"
+msgstr "لا تشفير"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:62
+#, fuzzy, kde-format
+msgid "SSL encryption"
+msgstr "تشفير SSL "
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:65
+#, fuzzy, kde-format
+msgid "TLS encryption"
+msgstr "تشفير TLS"
+
+#. i18n: ectx: label, entry (authenticationType), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:70
+#, fuzzy, kde-format
+msgid "Authentication method"
+msgstr "طريقة المواثقة"
+
+#. i18n: ectx: label, entry (specifyHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (localHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#. i18n: ectx: label, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:87 kmailtransport/mailtransport.kcfg:92
+#: kmailtransport/mailtransport.kcfg:96 kmailtransport/mailtransport.kcfg:101
+#, kde-format
+msgid "<!-- TODO -->"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (specifyHostname), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:88
+#, fuzzy, kde-format
+msgid ""
+"Check this option to use a custom hostname when identifying to the mail "
+"server. This is useful when your system's hostname may not be set correctly "
+"or to mask your system's true hostname."
+msgstr ""
+"\n"
+" كِش خيار إلى استخدام a مخصص اسم مضيف إلى بريد خادم\n"
+"<p/> هذا هو نظام s اسم مضيف أيار ليس set أو إلى حجاب ، قناع نظام s صحيح اسم "
+"مضيف n "
+
+#. i18n: ectx: whatsthis, entry (localHostname), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:93
+#, fuzzy, kde-format
+msgid "Enter the hostname that should be used when identifying to the server."
+msgstr "إدخال اسم مضيف مُستخدَم إلى خادم."
+
+#. i18n: ectx: whatsthis, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:97
+#, fuzzy, kde-format
+msgid ""
+"Check this option to use a custom sender address when identifying to the "
+"mail server. If not checked, the address from the identity is used."
+msgstr ""
+"\n"
+" كِش خيار إلى استخدام a مخصص اسم مضيف إلى بريد خادم\n"
+"<p/> هذا هو نظام s اسم مضيف أيار ليس set أو إلى حجاب ، قناع نظام s صحيح اسم "
+"مضيف n "
+
+#. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:102
+#, fuzzy, kde-format
+msgid ""
+"Enter the address that should be used to overwrite the default sender "
+"address."
+msgstr "إدخال اسم مضيف مُستخدَم إلى خادم."
+
+#. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
+#: kmailtransport/mailtransport.kcfg:105
+#: kmailtransport/plugins/smtp/smtpsettings.ui:288
+#, kde-format
+msgid "Connect using the system proxy settings"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (useProxy), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:106
+#, kde-format
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr ""
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:144
+#, fuzzy, kde-format
+msgid "The password to send to the server for authorization."
+msgstr ""
+"الـ كلمة مرور إلى إرسال إلى خادم لـ تخويل\n"
+"ترخيص."
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:274
+#, kde-format
+msgid ""
+"Failed to check capabilities. Please verify port and authentication mode."
+msgstr ""
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:274
+#, kde-format
+msgid "Check Capabilities Failed"
+msgstr ""
+
+#: kmailtransport/plugins/smtp/smtpjob.cpp:230
+#, fuzzy, kde-format
+msgid "You need to supply a username and a password to use this SMTP server."
+msgstr "أنت تحتاج إلى اسم مستخدم وكلمة مرور لاستخدام هذا الخادم SMTP."
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:28
+#, fuzzy, kde-format
+msgctxt "@option SMTP transport"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:29
+#, kde-format
+msgid "An SMTP server on the Internet"
+msgstr ""
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure account"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, smptTab)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:34
+#, fuzzy, kde-format
+msgctxt "general smtp settings"
+msgid "General"
+msgstr "&عام"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:40
+#, kde-format
+msgid "Account Information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, hostLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:46
+#, kde-format
+msgid "Outgoing &mail server:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:69
+#, fuzzy, kde-format
+msgid "&Login:"
+msgstr "اسم الد&خول:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:95
+#, fuzzy, kde-format
+msgid "P&assword:"
+msgstr "&كلمة المرور:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_storePassword)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:118
+#, fuzzy, kde-format
+msgid "&Store SMTP password"
+msgstr "&إحفظ كلمة المرور SMTP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_requiresAuthentication)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:125
+#, fuzzy, kde-format
+msgid "Server &requires authentication"
+msgstr "&يحتاج الخادم إلى التوثيق"
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:149
+#, fuzzy, kde-format
+msgctxt "advanced smtp settings"
+msgid "Advanced"
+msgstr "مت&قدم"
+
+#. i18n: ectx: property (title), widget (QGroupBox, encryptionGroup)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:158
+#, kde-format
+msgid "Connection Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:171
+#, kde-format
+msgid "Auto Detect"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, noAuthPossible)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:205
+#, fuzzy, kde-format
+msgid "This server does not support authentication"
+msgstr "هذا خادم ليس دعم توثق"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:220
+#, fuzzy, kde-format
+msgid "Encryption:"
+msgstr "التشفير"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:229
+#, fuzzy, kde-format
+msgid "&None"
+msgstr "&بدون"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSsl)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:236
+#, fuzzy, kde-format
+msgid "&SSL/TLS"
+msgstr "&SSL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTls)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:243
+#, fuzzy, kde-format
+msgid "START&TLS"
+msgstr "&TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:252
+#, fuzzy, kde-format
+msgid "&Port:"
+msgstr "ال&منفذ:"
+
+#. i18n: ectx: property (text), widget (QLabel, authLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:278
+#, fuzzy, kde-format
+msgid "Authentication:"
+msgstr "طريقة المواثقة"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:300
+#, kde-format
+msgid "SMTP Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifyHostname)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:306
+#, fuzzy, kde-format
+msgid "Sen&d custom hostname to server"
+msgstr "أ&رسل اسم المضيف  المعتاد إلى الخادم"
+
+#. i18n: ectx: property (text), widget (QLabel, hostnameLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:316
+#, fuzzy, kde-format
+msgid "Hostna&me:"
+msgstr "الم&ضيف:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifySenderOverwriteAddress)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:339
+#, kde-format
+msgid "Use custom sender address"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:349
+#, kde-format
+msgid "Sender Address:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, precommandLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:366
+#, fuzzy, kde-format
+msgid "Precommand:"
+msgstr "قبل القيادة:"
+
+#: kmailtransport/precommandjob.cpp:71
+#, fuzzy, kde-format
+msgid "Executing precommand"
+msgstr "التنفيذ"
+
+#: kmailtransport/precommandjob.cpp:71
+#, fuzzy, kde-format
+msgid "Executing precommand '%1'."
+msgstr "التنفيذ."
+
+#: kmailtransport/precommandjob.cpp:78
+#, fuzzy, kde-format
+msgid "Unable to start precommand '%1'."
+msgstr "غير ممكن تنفيذ الأمر التمهيدي '%1'."
+
+#: kmailtransport/precommandjob.cpp:80
+#, fuzzy, kde-format
+msgid "Error while executing precommand '%1'."
+msgstr "التنفيذ."
+
+#: kmailtransport/precommandjob.cpp:96
+#, fuzzy, kde-format
+msgid "The precommand crashed."
+msgstr "الـ."
+
+#: kmailtransport/precommandjob.cpp:99
+#, fuzzy, kde-format
+msgid "The precommand exited with code %1."
+msgstr "الـ مع رمز."
+
+#: kmailtransport/transport.cpp:84
+#, fuzzy, kde-format
+msgctxt ""
+"%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 %2"
+
+#: kmailtransport/transport.cpp:133
+#, kde-format
+msgctxt "Authentication method"
+msgid "Clear text"
+msgstr ""
+
+#: kmailtransport/transport.cpp:137
+#, kde-format
+msgctxt "Authentication method"
+msgid "Anonymous"
+msgstr ""
+
+#: kmailtransport/transport.cpp:168
+#, kde-format
+msgctxt "An unknown transport type"
+msgid "Unknown"
+msgstr ""
+
+#: kmailtransport/transport.cpp:206
+#, fuzzy, kde-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, the password can be stored in the configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"المحفظة KWallet هو ليس متوفّر itإيطالياهو هو مفضّل إلى استخدام المحفظة KWallet "
+"لـ كلمة مرور بوصة تشكيل ملفّ الـ كلمة مرور هو بوصة تنسيق ليس آمن من فك تشفير "
+"IF وصول إلى تشكيل ملفّ هو إلى تخزين كلمة مرور لـ خادم بوصة تشكيل ملفّ?"
+
+#: kmailtransport/transport.cpp:215
+#, fuzzy, kde-format
+msgid "KWallet Not Available"
+msgstr "البرنامج KWallet غير متوفر"
+
+#: kmailtransport/transport.cpp:216
+#, fuzzy, kde-format
+msgid "Store Password"
+msgstr "إحفظ كلمة المرور"
+
+#: kmailtransport/transport.cpp:217
+#, fuzzy, kde-format
+msgid "Do Not Store Password"
+msgstr "لا تحفظ كلمة المرور"
+
+#: kmailtransport/transportjob.cpp:112
+#, fuzzy, kde-format
+msgid "The outgoing account \"%1\" is not correctly configured."
+msgstr "الـ بريد نقل هو ليس مُهيّء."
+
+#: kmailtransport/transportmanager.cpp:231
+#, fuzzy, kde-format
+msgid "Default Transport"
+msgstr "افتراضي نقل"
+
+#: kmailtransport/transportmanager.cpp:250
+#, kde-format
+msgid "You must create an outgoing account before sending."
+msgstr ""
+
+#: kmailtransport/transportmanager.cpp:251
+#, kde-format
+msgid "Create Account Now?"
+msgstr ""
+
+#: kmailtransport/transportmanager.cpp:252
+#, kde-format
+msgid "Create Account Now"
+msgstr ""
+
+#: kmailtransport/transportmanager.cpp:687
+#, fuzzy, kde-format
+msgid ""
+"The following mail transports store their passwords in an unencrypted "
+"configuration file.\n"
+"For security reasons, please consider migrating these passwords to KWallet, "
+"the KDE Wallet management tool,\n"
+"which stores sensitive data for you in a strongly encrypted file.\n"
+"Do you want to migrate your passwords to KWallet?"
+msgstr ""
+"الـ متابعة بريد تخزين بوصة تشكيل ملفّ بوصة المحفظة KWallet هو مفضّل إلى "
+"استخدام المحفظة KWallet لـ كلمة مرور تخزين لـ أمن إلى إلى المحفظة KWallet?"
+
+#: kmailtransport/transportmanager.cpp:694
+#, fuzzy, kde-format
+msgid "Question"
+msgstr "سؤال"
+
+#: kmailtransport/transportmanager.cpp:695
+#, fuzzy, kde-format
+msgid "Migrate"
+msgstr "هاجر"
+
+#: kmailtransport/transportmanager.cpp:696
+#, fuzzy, kde-format
+msgid "Keep"
+msgstr "حافظ عليه"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddTransportDialog)
+#: kmailtransport/ui/addtransportdialog.ui:20
+#, fuzzy, kde-format
+msgid "Step One: Select Transport Type"
+msgstr "نقل النوع"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmailtransport/ui/addtransportdialog.ui:38
+#, fuzzy, kde-format
+msgctxt "The name of a mail transport"
+msgid "Name:"
+msgstr "الإ&سم:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDefault)
+#: kmailtransport/ui/addtransportdialog.ui:48
+#, kde-format
+msgid "Make this the default outgoing account"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, descLabel)
+#: kmailtransport/ui/addtransportdialog.ui:61
+#, kde-format
+msgid "Select an account type from the list below:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: kmailtransport/ui/addtransportdialog.ui:81
+#, fuzzy, kde-format
+msgid "Type"
+msgstr "النوع"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: kmailtransport/ui/addtransportdialog.ui:86
+#, fuzzy, kde-format
+msgid "Description"
+msgstr "لا تشفير"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:17
+#, fuzzy, kde-format
+msgid "Remo&ve"
+msgstr "إ&زالة"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:24
+#, fuzzy, kde-format
+msgid "&Set as Default"
+msgstr "تعيين الافتراضي"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:51
+#, fuzzy, kde-format
+msgid "A&dd..."
+msgstr "أ&ضف..."
+
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:58
+#, fuzzy, kde-format
+msgid "&Rename"
+msgstr "الإ&سم:"
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:65
+#, fuzzy, kde-format
+msgid "&Modify..."
+msgstr "&عدّل..."
+
+#: kmailtransport/widgets/addtransportdialogng.cpp:94
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Outgoing Account"
+msgstr ""
+
+#: kmailtransport/widgets/addtransportdialogng.cpp:97
+#, kde-format
+msgctxt "create and configure a mail transport"
+msgid "Create and Configure"
+msgstr ""
+
+#: kmailtransport/widgets/transportlistview.cpp:27
+#, fuzzy, kde-format
+msgctxt "@title:column email transport name"
+msgid "Name"
+msgstr "الاسم"
+
+#: kmailtransport/widgets/transportlistview.cpp:27
+#, fuzzy, kde-format
+msgctxt "@title:column email transport type"
+msgid "Type"
+msgstr "النوع"
+
+#: kmailtransport/widgets/transportlistview.cpp:99
+#, fuzzy, kde-format
+msgctxt "@label the default mail transport"
+msgid " (Default)"
+msgstr " ( الإفتراضي )"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:133
+#, kde-format
+msgid "Do you want to remove outgoing account '%1'?"
+msgstr ""
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:134
+#, kde-format
+msgid "Remove outgoing account?"
+msgstr ""
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:154
+#, fuzzy, kde-format
+msgid "Add..."
+msgstr "أ&ضف..."
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:159
+#, fuzzy, kde-format
+msgid "Modify..."
+msgstr "&عدّل..."
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:162
+#, fuzzy, kde-format
+msgid "Rename"
+msgstr "الإ&سم:"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:165
+#, fuzzy, kde-format
+msgid "Remove"
+msgstr "إ&زالة"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:170
+#, fuzzy, kde-format
+msgid "Set as Default"
+msgstr "تعيين الافتراضي"
+
+#: kmailtransportakonadi/messagequeuejob.cpp:62
+#, kde-format
+msgid "Empty message."
+msgstr ""
+
+#: kmailtransportakonadi/messagequeuejob.cpp:69
+#, kde-format
+msgid "Message has no recipients."
+msgstr ""
+
+#: kmailtransportakonadi/messagequeuejob.cpp:77
+#, kde-format
+msgid "Message has invalid transport."
+msgstr ""
+
+#: kmailtransportakonadi/messagequeuejob.cpp:84
+#, kde-format
+msgid "Message has invalid sent-mail folder."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to create SMTP job."
+#~ msgstr "عاجز إلى إ_نشئ SMTP شغل."
+
+#, fuzzy
+#~ msgid "SMTP Server"
+#~ msgstr "خادم SMTP"
+
+#, fuzzy
+#~ msgid "Transport type"
+#~ msgstr "نقل نوع"
+
+#, fuzzy
+#~ msgid "This outgoing account cannot be configured."
+#~ msgstr "الـ بريد نقل هو ليس مُهيّء."
+
+#, fuzzy
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#, fuzzy
+#~ msgid "Hos&tname:"
+#~ msgstr "اسم ال&مضيف:"
+
+#, fuzzy
+#~ msgid "Local sendmail"
+#~ msgstr "محلي sendmail"
+
+#, fuzzy
+#~ msgid "Failed to execute mailer program %1"
+#~ msgstr "فشل في تنفيذ برنامج mailer %1"
+
+#, fuzzy
+#~ msgid "Sendmail exited abnormally."
+#~ msgstr "انتهى البرنامج Sendmail بشكل غير طبيعي."
+
+#, fuzzy
+#~ msgid "Sendmail exited abnormally: %1"
+#~ msgstr "Sendmail 1"
+
+#, fuzzy
+#~ msgctxt "@option sendmail transport"
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#, fuzzy
+#~ msgid "A local sendmail installation"
+#~ msgstr "محلي sendmail"
+
+#, fuzzy
+#~ msgid "Sendmail &Location:"
+#~ msgstr "إختار موقع البرنامج sendmail"
+
+#, fuzzy
+#~ msgid "Check &What the Server Supports"
+#~ msgstr "تحقق من &ما يدعم الخادم"
+
+#, fuzzy
+#~ msgid "Authentication Method"
+#~ msgstr "طريقة التحقق"
+
+#, fuzzy
+#~ msgid "&LOGIN"
+#~ msgstr "&LOGIN"
+
+#, fuzzy
+#~ msgid "&PLAIN"
+#~ msgstr "&PLAIN"
+
+#, fuzzy
+#~ msgid "CRAM-MD&5"
+#~ msgstr "CRAM-MD&5"
+
+#, fuzzy
+#~ msgid "&DIGEST-MD5"
+#~ msgstr "&DIGEST-MD5"
+
+#, fuzzy
+#~ msgid "&GSSAPI"
+#~ msgstr "&GSSAPI"
+
+#, fuzzy
+#~ msgid "&NTLM"
+#~ msgstr "&NTLM"
+
+#, fuzzy
+#~ msgid "Transport: Sendmail"
+#~ msgstr "النّقل: Sendmail"
+
+#, fuzzy
+#~ msgid "&Location:"
+#~ msgstr "ال&موقع:"
+
+#, fuzzy
+#~ msgid "Choos&e..."
+#~ msgstr "إخت&ر..."
+
+#, fuzzy
+#~ msgid "Transport: SMTP"
+#~ msgstr "النّقل: ميفاق نقل البريد البسيط SMTP"
+
+#, fuzzy
+#~ msgid "1"
+#~ msgstr "1"
+
+#, fuzzy
+#~ msgid "Use Sendmail"
+#~ msgstr "Sendmail"
+
+#, fuzzy
+#~ msgid "Only local files allowed."
+#~ msgstr "مسموح فقط الملفات المحليّة."
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Add Transport"
+#~ msgstr "إضافة طريقة نقل"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Modify Transport"
+#~ msgstr "غير طريقة النقل"
+
+#, fuzzy
+#~ msgid "SM&TP"
+#~ msgstr "SM&TP"
+
+#, fuzzy
+#~ msgid "&Sendmail"
+#~ msgstr "&Sendmail"
+
+#, fuzzy
+#~ msgid "Add Transport"
+#~ msgstr "إضافة طريقة نقل"

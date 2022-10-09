@@ -1,0 +1,4 @@
+include(ECMMarkAsTest)
+add_executable(transportmanagertest transportmanagertest.cpp)
+ecm_mark_as_test(transportmanagertest)
+target_link_libraries(transportmanagertest KF5MailTransport)

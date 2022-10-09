@@ -1,0 +1,5 @@
+usr/share/config.kcfg/mailtransport.kcfg
+usr/share/kservices5/kcm_mailtransport.desktop
+usr/share/locale/*/LC_MESSAGES/libmailtransport5.mo
+usr/share/qlogging-categories5/kmailtransport.categories
+usr/share/qlogging-categories5/kmailtransport.renamecategories
