@@ -1,3 +1,9 @@
+kmailtransport (21.08.1-1.1-deepin1) unstable; urgency=medium
+
+  * fix-build-error
+
+ -- ZhengJie-Niu- <niuzj0@gmail.com>  Wed, 07 Dec 2022 03:39:30 +0000
+
 kmailtransport (21.08.1-1) unstable; urgency=medium
 
   [ Norbert Preining ]

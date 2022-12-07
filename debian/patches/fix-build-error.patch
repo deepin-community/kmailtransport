@@ -1,0 +1,13 @@
+Separate the declaration specifier from the standard property, and the standard attribute must come after the declaration specifier.
+--- a/src/kmailtransport/transport.h
++++ b/src/kmailtransport/transport.h
+@@ -95,8 +95,7 @@
+ 
+       @since 4.5
+     */
+-    static Q_REQUIRED_RESULT QString authenticationTypeString(int type);
+-
++    Q_REQUIRED_RESULT static QString authenticationTypeString(int type);
+     /**
+       Returns a deep copy of this Transport object which will no longer be
+       automatically updated. Use this if you need to store a Transport object
