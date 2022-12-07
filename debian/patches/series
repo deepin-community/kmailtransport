@@ -1,1 +1,2 @@
 make_libgapi_optional.patch
+fix-build-error.patch
